@@ -31,6 +31,9 @@
 
 # DSA Cracker Sheet
 
+
+- **Puzzles**: https://www.geeksforgeeks.org/puzzles/
+
 ## Arrays
 
 <details>
