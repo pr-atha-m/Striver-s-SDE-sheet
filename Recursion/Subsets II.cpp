@@ -4,6 +4,7 @@ public:
     void rec(int begin , vector<int> &nums , vector<int> v , vector<vector<int>> &res){
         res.push_back(v);
         for(int i=begin;i<nums.size();i++){
+            // to avoid duplicates
             if(i!=begin && nums[i] == nums[i-1]){
                 continue;
             }
