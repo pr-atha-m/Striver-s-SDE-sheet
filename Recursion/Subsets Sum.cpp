@@ -7,10 +7,11 @@ class Solution
 public:
     void recursive_sum(vector<int> & v ,int i ,  int N , vector<int> &arr , int sum){
         if(i == N){
+           // when i == N we push back the sum to our vector.
             v.push_back(sum);
             return;
         }
-        
+        // we have two options either we selecct arr[i] , or not in the sum.
         recursive_sum(v ,i+1 ,  N , arr , sum);
         recursive_sum(v , i+1 , N , arr , sum+arr[i]);
         
